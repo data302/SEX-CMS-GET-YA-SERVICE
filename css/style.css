@@ -1,0 +1,185 @@
+body {
+    background: #f0f0f0 !important;
+    color: #c7c9f0;
+    max-width: auto;
+	margin: 0 auto !important;
+	font-size: 13px !important;
+        font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+
+a{
+color: #FFFFFF;
+  text-decoration: none;
+}
+
+img {
+       vertical-align: middle;
+}
+
+.head {
+  background: url(head.png);
+  border-bottom: 2px solid rgb(109, 55, 131);
+}
+
+.head2 {
+  background: url(head.png);
+  border-bottom: 2px solid rgb(109, 55, 131);
+}
+
+.fo {
+  background: url(fo.png) no-repeat left, url(f.png);
+  padding: 37px;
+  border-top: 2px solid rgb(128, 75, 148);
+}
+
+.rekl {
+    background: rgb(57, 39, 65) url(rek.png) no-repeat right top;
+  padding: 12px;
+  border-top: 1px solid rgb(120, 66, 142);
+  border-bottom: 2px solid rgb(109, 55, 131);
+  color: rgb(242, 242, 242);
+  display: block;
+}
+
+.title {
+  background: url(title.png);
+  padding: 14px;
+  border-top: 1px solid rgb(153, 82, 181);
+  border-bottom: 2px solid rgb(174, 120, 195);
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.menu{
+  background: #EDE0F2;
+  padding: 10px;
+}
+
+.news {
+  background: #F5F5F5;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  color: rgb(197, 160, 166);
+}
+
+.link {
+  background: white;
+  padding: 12px;
+  border-top: 2px solid rgb(236, 208, 211);
+  border-bottom: 2px solid rgb(223, 223, 223);
+  margin: -1px;
+  display: block;
+  color: rgb(136, 136, 136);
+}
+
+.link img {
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.link2 {
+  background: white;
+  border-bottom: 1px solid #DFCBCF;
+  padding: 12px;
+  margin: -1px;
+  display: block;
+  color: rgb(137, 137, 137);
+}
+
+.cnt {
+  float: right;
+  background-color: #C29DD0;
+  padding: 3px 4px;
+  border-radius: 3px;
+  text-shadow: none;
+  margin: -3px 0px 0 0;
+  color: #FFFFFF;
+}
+
+.cnt2 {
+  float: right;
+  background-color: #703A86;
+  padding: 6px 8px;
+  border-radius: 3px;
+  border-top: 1px solid rgb(94, 54, 111);
+  border-bottom: 1px solid rgb(150, 95, 173);
+  margin: -14px;
+  color: #FFFFFF;
+}
+
+.mine {
+  background: -webkit-linear-gradient(bottom, #F4D7FF 50%, #F9E8FF 50%);
+  padding: 15px;
+  border-top: 1px solid rgb(247, 229, 255);
+  text-shadow: 1px 1px 1px white;
+  border-bottom: 1px solid rgb(212, 177, 226);
+  display: block;
+  color: rgb(154, 107, 173);
+}
+
+input {
+padding: 10px;
+  background: rgb(253, 249, 255);
+  border: 1px solid rgb(211, 176, 224);
+  border-radius: 4px;
+  color: rgb(155, 116, 155);
+}
+
+.foot a {
+  background: rgb(143, 68, 173);
+  padding: 16px;
+  color: white;
+  border-bottom: 4px solid rgb(109, 55, 131);
+  display: block;
+  text-shadow: 1px 1px 1px rgb(136, 64, 166);
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.foot2 a {
+  background: rgb(136, 64, 166);
+  padding: 16px;
+  color: white;
+  border-bottom: 4px solid rgb(109, 55, 131);
+  display: block;
+  text-shadow: 1px 1px 1px rgb(136, 64, 166);
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Видео плеер */
+.video {
+  height: 0;
+  position: relative;
+  padding-bottom: 50%;
+}
+
+.video iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Показатель успешной и не успешной */
+.error{
+  text-align:center;
+  padding: 7px;
+  background: #d23737;
+  border-bottom: #b43434 solid 1px;
+  border-top: #db4949 1px solid;
+  color: #2b0505;
+
+}
+
+.ok {
+  background:  #3d9c48;
+  padding: 6px;
+  color: #FFFFFF;
+  font-size: 14px ;
+  text-align: center;
+}
